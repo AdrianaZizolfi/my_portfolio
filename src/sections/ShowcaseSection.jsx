@@ -52,9 +52,15 @@ const AppShowcase = () => {
               <img src="/images/allbooked.png" alt="AllBooked" />
             </div>
             <div className="text-content">
+            <a
+                href="https://www.allbooked.co.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
               <h2>
                 AllBooked, the All-in-one Web Application for Business Management, User Friendly and Easy to Use
               </h2>
+              </a>
               <p className="text-white-50 md:text-xl">
                 An app built with Django, Phyton, TailwindCSS & Javascript for a fast,
                 user-friendly experience.
@@ -70,14 +76,24 @@ const AppShowcase = () => {
                   alt="Creative Agency"
                 />
               </div>
+              <a href="https://www.aethercreativeagency.co.uk/"
+              target="_blank"
+              rel="noopener noreferrer">
               <h2>Aether Creative Agency</h2>
+              </a>
+              
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/movie.png" alt="YC Directory App" />
               </div>
-              <h2>Movie Database App </h2>
+              <a href="https://movie-app-teal-five.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer">
+                <h2>Movie Database App </h2>
+              </a>
+              
             </div>
           </div>
         </div>
